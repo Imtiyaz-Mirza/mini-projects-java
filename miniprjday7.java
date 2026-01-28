@@ -3,10 +3,10 @@ import java.util.ArrayList;
 public class miniprjday7 {
     public static void main(String args[]) {
         ArrayList list = new ArrayList<>();
-        list.add("School !");
-        list.add("intermediate !");
-        list.add("Degree");
-        list.add("Masters");
+        list.add("School level !");
+        list.add("intermediate level !");
+        list.add("Degree level ! ");
+        list.add("Masters level !");
         for (int i = 0; i < list.size(); i++) {
             System.out.println("Position : " + (i + 1) + ". " + list.get(i));
         }
