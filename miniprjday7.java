@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class miniprjday7 {
     public static void main(String args[]) {
-        ArrayList list = new ArrayList<>();
+        ArrayList<String> list = new ArrayList<>();
         list.add("School level !");
         list.add("intermediate level !");
         list.add("Degree level ! ");
